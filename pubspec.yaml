@@ -11,10 +11,9 @@ dependencies:
   flutter:
     sdk: flutter
   flutter_svg: ^2.0.9
+  phone_numbers_parser: any
 
 dev_dependencies:
-  flag_builder:
-    path: ./packages/flag_builder
   build_runner: ^2.4.8
   flutter_lints: ^2.0.3
   flutter_test:

@@ -1,3 +1,6 @@
+## [5.0.1]
+* Fix for build runner issue
+
 ## [5.0.0]
 * Use latest files from hatscripts
 * Remove unnecessary files 

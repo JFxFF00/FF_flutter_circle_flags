@@ -40,3 +40,8 @@ Some users have expressed their need to change some flags due to political reaso
 # Contributing & issues
 
 see CONTRIBUTING.md
+
+For generating the flag.dart just run 
+```dart
+    dart run tools/generate_flag.dart
+```

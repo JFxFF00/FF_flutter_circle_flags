@@ -1,7 +1,7 @@
-// GENERATED FILE, timestamp: 2024-03-27 00:47:48.102112
-// Regenerate with: dart run build_runner build
+// GENERATED FILE. DO NOT MODIFY BY HAND.
+// Run `dart run tool/generate_flags.dart` to regenerate.
 
-/// List of available flags(iso codes) for [CircleFlag].
+/// List of available flags (ISO codes) for [CircleFlag].
 abstract class Flag {
   static const values = <String>[
     AC,
@@ -251,6 +251,7 @@ abstract class Flag {
     ZM,
     ZW,
   ];
+
   static const String AC = 'ac';
   static const String AD = 'ad';
   static const String AE = 'ae';

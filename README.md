@@ -33,9 +33,10 @@ You might want to preload images for a smoother list scrolling experience:
 CircleFlag.preload(['fr', 'us']);
 ```
 
-# Issues & Contributing
+# Overwriting or adding custom flags
 
-This package uses flags from https://github.com/HatScripts/circle-flags
+Some users have expressed their need to change some flags due to political reasons, or stylistic reasons. You might also wish to add your own flags. To do so refer to this issue: https://github.com/cedvdb/phone_form_field/issues/222
 
-If a change is required to one of the flag the issue should be opened in that repository.
+# Contributing & issues
 
+see CONTRIBUTING.md

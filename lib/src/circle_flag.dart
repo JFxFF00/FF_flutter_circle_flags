@@ -2,12 +2,11 @@ library circle_flags;
 
 import 'dart:convert';
 
-import 'package:circle_flags/src/flags.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
-export 'package:circle_flags/src/flags.dart';
+export 'package:circle_flags/src/flag.dart';
 
 /// A flag of a country, rounded by default.
 ///

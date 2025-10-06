@@ -17,18 +17,18 @@ class FlagsFileBuilder implements Builder {
   static AssetId _allFileOutput(BuildStep buildStep) {
     return AssetId(
       buildStep.inputId.package,
-      join('lib', 'src', 'flags.dart'),
+      join('lib', 'src', 'flag.dart'),
     );
   }
 
   @override
   Map<String, List<String>> get buildExtensions => {
-        r'$lib$': const ['src/flags.dart']
+        r'$lib$': const ['src/flag.dart']
       };
 
   @override
   FutureOr<void> build(BuildStep buildStep) async {
-    final flagFile = File('lib/src/flags.dart');
+    final flagFile = File('lib/src/flag.dart');
     if (flagFile.existsSync()) {
       flagFile.deleteSync();
     }
@@ -47,10 +47,8 @@ class FlagsFileBuilder implements Builder {
 // GENERATED FILE, timestamp: ${DateTime.now()}
 // Regenerate with: dart run build_runner build
 
-import 'package:circle_flags/circle_flags.dart';
-
 /// List of available flags(iso codes) for [CircleFlag].
-abstract class Flags {
+abstract class Flag {
 ''';
 
     var list = '''

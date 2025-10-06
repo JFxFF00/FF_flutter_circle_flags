@@ -26,7 +26,7 @@ class _MyAppState extends State<MyApp> {
     super.didChangeDependencies();
     // preloading flags so they how instantly (mostly useful for web)
     if (!preloaded) {
-      CircleFlag.preload(Flags.values);
+      CircleFlag.preload(Flag.values);
       preloaded = true;
     }
   }
@@ -46,15 +46,15 @@ class _MyAppState extends State<MyApp> {
         ),
         body: showFlags
             ? ListView.builder(
-                itemCount: Flags.values.length,
+                itemCount: Flag.values.length,
                 itemBuilder: (context, index) => Padding(
                   padding: const EdgeInsets.all(8.0),
                   child: ListTile(
                     leading: CircleFlag(
-                      Flags.values[index],
+                      Flag.values[index],
                       size: 32,
                     ),
-                    title: Text(Flags.values[index]),
+                    title: Text(Flag.values[index]),
                     onTap: () {},
                   ),
                 ),

@@ -1,4 +1,3 @@
-# Read about `build.yaml` at https://pub.dartlang.org/packages/build_config
 builders:
   circle_flags|assetsToCache:
     import: "package:flag_builder/builders.dart"
@@ -12,7 +11,7 @@ builders:
   circle_flags|combineFlagFile:
     import: "package:flag_builder/builders.dart"
     builder_factories: ["combineFlagFile"]
-    build_extensions: { r'$package$': ["lib/src/flags.dart"] }
+    build_extensions: { r'$package$': ["lib/src/flag.dart"] }
     auto_apply: root_package
     build_to: source
     required_inputs:

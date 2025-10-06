@@ -1,3 +1,9 @@
+## [5.0.0]
+* Use latest files from hatscripts
+* Remove unnecessary files 
+* Add note in readme on how to add your own flags
+* [Breaking] renamed Flags in Flag
+
 ## [4.0.2]
 * Exclude from semantics
 

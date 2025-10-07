@@ -1,6 +1,6 @@
 import 'dart:io';
 import 'package:path/path.dart' as p;
-import 'package:phone_numbers_parser/phone_numbers_parser.dart';
+import '../lib/src/flag.dart';
 
 /// Cleans up unnecessary flag SVGs and regenerates `lib/src/flag.dart`.
 ///
@@ -27,7 +27,7 @@ void main(List<String> arguments) {
 
   // Step 1: Determine flags to keep based on phone_numbers_parser's ISO codes
   final flagsToKeep = {
-    ...IsoCode.values.map((isoCode) => isoCode.name.toLowerCase()),
+    ...Flag.values.map((isoCode) => isoCode.toLowerCase()),
     'xx', // fallback "unknown" flag
   };
 
